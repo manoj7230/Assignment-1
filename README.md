@@ -12,3 +12,17 @@ print(addition)
 print(subtraction)
 print(multiplication)
 print(division)
+
+first_name = 'Manoj'
+last_name = 'Kumar'
+full_name = first_name + " " + last_name
+def main():
+    print("Personalized Greeting Program")
+    first_name = input("Manoj").strip()
+    last_name = input("Kumar").strip()
+
+    full_name = first_name + " " + last_name
+    print(f"Hello, {full_name}! Welcome to the Python programming course.")
+
+if __name__ == "__main__":
+    main()
